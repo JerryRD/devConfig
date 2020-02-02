@@ -1,0 +1,14 @@
+[core]
+	editor = \"D:\\dev\\Microsoft VS Code\\Code.exe\" --wait
+[user]
+	email = jerryludeve@outlook.com
+	name = jerrylu
+[alias]
+	st = status
+	ad = add .
+	cm = commit
+	cma = commit -a
+	ps = push
+	pl = pull
+	ck = checkout
+	br = branch
