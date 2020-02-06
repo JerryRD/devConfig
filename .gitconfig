@@ -4,11 +4,21 @@
 	email = jerryludeve@outlook.com
 	name = jerrylu
 [alias]
+	cl = clone
 	st = status
-	ad = add .
-	cm = commit
-	cma = commit -a
-	ps = push
-	pl = pull
+	sts = status -s
 	ck = checkout
 	br = branch
+	ad = add .
+	cm = cm -m
+	cma = git cm -am
+	ps = push
+	rb = rebase
+	mr = merge
+	pl = pull
+	plrb = pull --rebase
+	k = gitk --all
+	lg = log
+	lgone = log --oneline
+	cp = cherry-pick
+	rs = reset
